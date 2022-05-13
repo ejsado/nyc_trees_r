@@ -11,7 +11,7 @@ library(DBI)
 treeCensus <- dbConnect(RSQLite::SQLite(), "D:/ProjectsSyncDesktop/GIS/NYCtrees/data/NycTreeCensus.sqlite")
 
 # register a google maps API key
-register_google(key="AIzaSyDkuufIdUWKtI3OahqAvL-Lmk9cHz_iTV0")
+register_google(key="jibberish")
 
 
 # PLOT TREE POPULATION OVER TIME
