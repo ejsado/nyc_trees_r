@@ -525,6 +525,7 @@ ggmap(get_stamenmap(bbox=oldestZipBB, maptype="toner-background"), darken=c(0.8,
 	geom_point(data=oldestZip, mapping=aes(x=longitude, y=latitude), stroke=0, alpha=0.5, color="darkolivegreen") +
 	theme_void()
 
+
 # MAP A RANDOM SUBSET OF TREES
 # used for the thumbnail
 
